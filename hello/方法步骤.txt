@@ -1,0 +1,5 @@
+1、在nodejs的npm安装目录下C:\Program Files (x86)\nodejs\node_modules\npm
+   执行npm install node-gyp@3.4.0(请用管理员身份运行cmd,可以到C:\Windows\System32\cmd.exe)
+2、安装Microsoft Visual Studio2015(2013)C++
+3、配置环境变量Path = C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin
+3、进入示例目录（hello），执行node-gyp configure build，完成编译。
